@@ -1,0 +1,96 @@
+{
+    "AD": [
+        {
+            "phoneObj": {
+                "countryCode": "376",
+                "nationalNumber": "3123456"
+            },
+            "validationErrorMessage": "PHONE_NUMBER_INVALID_LENGTH"
+        }
+    ],
+    "AE": [
+        {
+            "phoneObj": {
+                "countryCode": "971",
+                "nationalNumber": "2278"
+            },
+            "validationErrorMessage": "PHONE_NUMBER_TOO_SHORT"
+        }
+    ],
+    "AU": [
+        {
+            "phoneObj": {
+                "countryCode": "1",
+                "nationalNumber": "212345678"
+            },
+            "validationErrorMessage": "PHONE_INVALID_COUNTRY_CODE"
+        },
+        {
+            "phoneObj": {
+                "countryCode": "61",
+                "nationalNumber": "891621234"
+            },
+            "validationErrorMessage": "PHONE_INVALID_FOR_REGION"
+        },
+        {
+            "phoneObj": {
+                "countryCode": "61",
+                "nationalNumber": "212"
+            },
+            "validationErrorMessage": "PHONE_NUMBER_TOO_SHORT"
+        },
+        {
+            "phoneObj": {
+                "countryCode": "61",
+                "nationalNumber": "212345678212345678"
+            },
+            "validationErrorMessage": "PHONE_NUMBER_TOO_LONG"
+        }
+    ],
+    "CI": [
+        {
+            "phoneObj": {
+                "countryCode": "225",
+                "nationalNumber": "21234567"
+            },
+            "validationErrorMessage": "PHONE_NUMBER_TOO_SHORT"
+        },
+        {
+            "phoneObj": {
+                "countryCode": "225",
+                "nationalNumber": "01234567"
+            },
+            "validationErrorMessage": "PHONE_NUMBER_TOO_SHORT"
+        }
+    ],
+    "US": [
+        {
+            "phoneObj": {
+                "countryCode": "376",
+                "nationalNumber": "712345"
+            },
+            "validationErrorMessage": "PHONE_INVALID_COUNTRY_CODE"
+        },
+        {
+            "phoneObj": {
+                "countryCode": "1",
+                "nationalNumber": "2042345678"
+            },
+            "validationErrorMessage": "PHONE_INVALID_FOR_REGION"
+        },
+        {
+            "phoneObj": {
+                "countryCode": "1",
+                "nationalNumber": "2"
+            },
+            "validationErrorMessage": "PHONE_NUMBER_TOO_SHORT"
+        },
+        {
+            "phoneObj": {
+                "countryCode": "1",
+                "nationalNumber": "20155501232015550123"
+            },
+            "validationErrorMessage": "PHONE_NUMBER_TOO_LONG"
+        }
+    ]
+}
